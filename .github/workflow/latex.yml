@@ -1,5 +1,7 @@
 name: Build and Publish LaTeX PDF
 
+permissions:
+  contents: write
 on:
   push:
     branches: [ main ]
